@@ -1,0 +1,456 @@
+.bg-brown {
+    background-color: #CDBEB0;
+}
+
+#main-home {
+    width: 100%;
+    min-height: 650px;
+    background: url(../assets/img/bg.jpg);
+    background-size: cover;
+}
+
+.color-brown {
+    color: #975c4b;
+}
+
+.btn-theme {
+    background-color: #9b6b43;
+    font-weight: 900;
+    padding: 8px 18px;
+    color: #d3d3c4;
+}
+
+.btn-theme:hover {
+    color: #d6d6d6;
+    box-shadow: 0px 0px 0px 4px rgba(106, 94, 69, 0.638), 0px 0px 0px 7px rgba(106, 94, 69, 0.222);
+}
+
+.btn-theme-2 {
+    box-shadow: 0px 0px 0px 4px rgba(106, 94, 69, 0.638), 0px 0px 0px 7px rgba(106, 94, 69, 0.222);
+    margin: 0;
+    font-family: 'Fredoka One', cursive;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: #806a63;
+    color: rgb(167, 160, 146);
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: 0.5s ease;
+}
+
+.btn-theme-2:hover {
+    background-color: #F5DEB3;
+    color: white;
+    box-shadow: none;
+}
+
+.row {
+    font-family: 'Fredoka One', cursive;
+    font-size: 18px;
+    color: #f5efea;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.fa-phone-alt {
+    color: #F5DEB3;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.fa-compass {
+    color: #F5DEB3;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+#main-home #banner-slider {
+    position: relative;
+    top: 60px;
+}
+
+#main-home #banner-slider .owl-carousel .owl-nav button {
+    position: absolute;
+    top: 30%;
+    outline: none;
+}
+
+#main-home #banner-slider .owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+}
+
+#main-home #banner-slider .owl-carousel .owl-nav button.owl-next {
+    right: 0;
+}
+
+#main-home #banner-slider .owl-carousel .owl-nav button span {
+    font-size: 56px;
+    padding: 0 1rem;
+    color: #C26048;
+}
+
+#main-home #banner-slider .owl-carousel .owl-nav button.owl-prev span {
+    margin-left: -5rem;
+}
+
+#main-home #banner-slider .owl-carousel .owl-nav button.owl-next span {
+    margin-right: -5rem;
+}
+
+#main-home #banner-slider .owl-carousel.owl-dots {
+    position: absolute;
+    bottom: -6rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#main-home #banner-slider .owl-carousel.owl-dots button span {
+    background-color: #C26048;
+    padding: 6px!important;
+}
+
+#main-home #banner-slider .owl-carousel.owl-dots button.active span {
+    background-color: #C26048;
+}
+
+#main-home a {
+    font-family: 'Fredoka One', cursive;
+}
+
+#main-home p {
+    font-family: 'Langar', cursive;
+    color: #ffc484;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#main-home .header-top .item a {
+    color: #EEE8AA;
+}
+
+#main-home .header-top .item a:hover {
+    color: #b78e50;
+}
+
+#main-home .header .nav-item {
+    padding: 0 15px;
+}
+
+#main-home .navbar .nav-item .nav-link {
+    color: #d3b171;
+    font-weight: 990;
+    font-size: 18px;
+    font-family: 'Langar', cursive;
+}
+
+#main-home .navbar .nav-item .nav-link:hover {
+    color: #c6906a;
+}
+
+#main-home .navbar .nav-item {
+    padding: 0 18px;
+}
+
+#main-home .navbar .cart-icon {
+    color: #c6906a;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#about-section {
+    width: 100%;
+    padding: 150px 0;
+    background-color: #43362f;
+}
+
+.about {
+    background: rgb(41, 37, 37);
+    border-radius: 0.5rem;
+}
+
+#about-section h3 {
+    font-size: 30px;
+    color: #CE8054;
+    font-weight: 900;
+    margin-top: 30px;
+    font-family: 'Fredoka One', cursive;
+}
+
+#about-section h1 {
+    font-size: 22px;
+    color: #a2ae8f;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-top: 30px;
+    font-family: 'Langar', cursive;
+}
+
+#about-section p {
+    color: #CE8054;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 900;
+    padding-right: 50px;
+    text-transform: capitalize;
+    font-family: 'Fredoka One', cursive;
+}
+
+#about-section p span {
+    font-size: 15px;
+    color: #a2ae8f;
+    font-family: 'Langar', cursive;
+}
+
+#about-section img {
+    border-radius: 40px 40px 40px 40px;
+    width: 85%;
+    padding: 10px 10px 10px 10px;
+    overflow: hidden;
+}
+
+#team-area {
+    background-color: #43362f;
+    padding-top: 5%;
+}
+
+.single-team {
+    background-color: rgb(41, 37, 37);
+    margin-top: 10px;
+}
+
+.single-team:hover .social {
+    cursor: pointer;
+    opacity: 1;
+    transform: rotateY(0deg) scale(1, 1);
+}
+
+.img-area {
+    overflow: hidden;
+    position: relative;
+}
+
+.img-area img {
+    width: 100%;
+}
+
+.img-area:hover img {
+    transform: scale(1.2);
+}
+
+.img-area img {
+    transition: all 0.4s ease 0s;
+}
+
+.img-area .social {
+    background-color: rgba(148, 129, 93, 0.533);
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: .5s;
+    transform: rotateY(180deg) scale(0.5, 0.5);
+}
+
+.img-area .social ul {
+    text-align: center;
+    position: relative;
+    top: 175px;
+}
+
+.img-area .social ul li a {
+    color: #fff;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.img-area .social ul li a:hover {
+    background-color: #975c4b;
+    color: black;
+    border: 1px solid transparent;
+}
+
+.img-text {
+    padding: 25px;
+    color: #CE8054;
+    text-align: center;
+}
+
+.img-text h4 {
+    margin: 0 0 5px;
+    font-size: 30px;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 5px;
+}
+
+.img-text h5 {
+    font-size: 17px;
+    font-family: 'Fredoka One', cursive;
+    font-weight: bold;
+}
+
+.most-liked {
+    position: relative;
+    margin-top: 25px;
+    background-color: #403732;
+}
+
+.coffe-card {
+    position: relative;
+    box-shadow: 5px 15px 50px #3d3c30;
+    max-width: 420px;
+    transition: all .8s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card-header .title-text {
+    color: rgb(61, 59, 53);
+}
+
+.rotate {
+    perspective: 100rem;
+}
+
+.back {
+    position: absolute;
+    top: -100%;
+    background-color: rgb(255, 254, 254);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    user-select: none;
+    pointer-events: none;
+    transform: rotateY(180deg);
+    transition: top .8s opacity .4s
+}
+
+.text-color {
+    color: #CE8054;
+    font-family: 'Fredoka One', cursive;
+    font-weight: bold;
+}
+
+.back-content {
+    position: absolute;
+    padding-top: -1px;
+    left: 50%;
+    color: rgb(100, 100, 76);
+    transform: translate(-50%, 50%);
+}
+
+.rotate:hover .coffee-card {
+    transform: rotateY(180deg);
+}
+
+.rotate:hover .back {
+    opacity: 1;
+    top: 0;
+    user-select: auto;
+    pointer-events: auto;
+}
+
+.back-content .btn {
+    color: rgb(252, 252, 255);
+}
+
+#contact {
+    background-color: #403732;
+    padding: 8px 18px;
+}
+
+.contact-form {
+    padding: 8px 18px;
+}
+
+.form-group {
+    color: #9b6b43;
+}
+
+.card-body {
+    font-weight: 900;
+    font-size: 14px;
+    padding: 8px 18px;
+    color: #9b6b43;
+}
+
+.card-body h4 {
+    font-weight: 900;
+    font-size: 18px;
+    color: #9b6b43;
+}
+
+.list-group h1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.list-group {
+    font-size: 13px;
+    color: #9b6b43;
+}
+
+@media only screen and (max-width:580px) {
+    #main-home.header-top {
+        flex-direction: column;
+    }
+    #main-home #banner-slider {
+        width: 95%;
+        margin: auto;
+    }
+    #main-home #banner-slider .owl-carousel .owl-nav button {
+        display: none;
+    }
+    #main-home #banner-slider .owl-carousel.owl-dots {
+        bottom: -1rem;
+    }
+    #main-home {
+        padding: 20px 0;
+        background-size: auto;
+    }
+    #main-home h1 {
+        color: #6f5c46;
+    }
+    .about {
+        border-radius: 0.3rem;
+        padding: 20px 0px;
+    }
+    #about-section img {
+        width: 100%;
+        height: 85%;
+    }
+    #about-section h3 {
+        font-size: 20px;
+        padding: -9px;
+        margin-top: 40px;
+    }
+    #about-section p {
+        font-size: 10px;
+        text-align: left;
+        font-weight: 900;
+        padding: 20px 0px;
+        font-family: 'Josefin+Sans', cursive;
+    }
+    .img-area img {
+        display: inline-block;
+    }
+    .list-group h1 {
+        padding: 5px 5px;
+        width: 40%;
+    }
+    .form-group {
+        width: 60%;
+    }
+    .contact-form h1 {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+}
